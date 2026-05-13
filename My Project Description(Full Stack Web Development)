@@ -1,0 +1,73 @@
+🛒 Lifestyle Store – Full Stack Web Development Project
+
+This is a full-stack e-commerce web application built using PHP, MySQL, HTML, CSS, Bootstrap, and JavaScript.
+It was developed as part of an Internshala Full Stack Web Development project.
+
+✨ Features
+
+🔐 User Authentication – Sign Up, Login, Logout, Session Management
+
+👕 Product Catalog – Browse products like watches, shirts, cameras
+
+🛍️ Add to Cart & Order Management – Add items, place orders, track purchases
+
+👤 User Profile Management – Update account details and view order history
+
+📧 Contact & Messaging – Send queries via contact form
+
+🎨 Responsive UI – Designed with Bootstrap for mobile-first experience
+
+🗄️ Tech Stack
+
+Frontend: HTML5, CSS3, Bootstrap, JavaScript
+
+Backend: PHP 7+
+
+Database: MySQL (phpMyAdmin)
+
+Server: Apache (via XAMPP)
+
+⚙️ Setup Instructions
+
+Install XAMPP (Apache + MySQL).
+
+Start Apache and MySQL from the XAMPP Control Panel.
+
+Copy this project folder into:
+
+C:\xampp\htdocs\estore
+
+
+Open phpMyAdmin
+.
+
+Create a new database:
+
+lifestylestoresql
+
+
+Import the SQL file from this repo (lifestylestoresql.sql).
+
+In browser, open:
+
+http://localhost/estore/
+
+📂 Folder Structure
+estore/
+│── css/             → Stylesheets
+│── img/             → Images
+│── includes/        → Common PHP includes (DB connection, header, footer)
+│── index.php        → Homepage
+│── products.php     → Product listing
+│── cart.php         → Shopping cart
+│── signup.php       → User registration
+│── login.php        → User login
+│── lifestylestoresql.sql → Database export
+
+🚀 Future Enhancements
+
+Online payment integration
+
+Admin dashboard for product management
+
+Email verification for user signup
